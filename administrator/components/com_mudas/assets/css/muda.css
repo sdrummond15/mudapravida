@@ -1,0 +1,8 @@
+.btn-muda .btn-danger.active{
+    background-color: #0373ca;
+    border-color: #0373ca;
+}
+.btn-muda .btn-success.active{
+    background-color: #5403b0;
+    border-color: #5403b0;
+}

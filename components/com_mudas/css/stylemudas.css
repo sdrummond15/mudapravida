@@ -1,0 +1,335 @@
+.muda{
+    width: 25%;
+    display: table;
+    float: left;
+    margin-bottom: 30px;
+}
+.muda-det{
+    width: 90%;
+    display: table;
+    margin: auto;
+}
+.muda-det pre{
+    display: table;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Droid Sans, sans-serif';
+    color: #000;
+    font-size: 18px;
+    background: rgba(179,179,179,1);
+    background: -moz-linear-gradient( rgba(179,179,179,1) 0%, rgba(255,255,255,1) 51%, rgba(179,179,179,1) 100%);
+    background: -webkit-gradient(left  left bottom, color-stop(0%, rgba(179,179,179,1)), color-stop(51%, rgba(255,255,255,1)), color-stop(100%, rgba(179,179,179,1)));
+    background: -webkit-linear-gradient( rgba(179,179,179,1) 0%, rgba(255,255,255,1) 51%, rgba(179,179,179,1) 100%);
+    background: -o-linear-gradient( rgba(179,179,179,1) 0%, rgba(255,255,255,1) 51%, rgba(179,179,179,1) 100%);
+    background: -ms-linear-gradient( rgba(179,179,179,1) 0%, rgba(255,255,255,1) 51%, rgba(179,179,179,1) 100%);
+    background: linear-gradient(to bottom, rgba(179,179,179,1) 0%, rgba(255,255,255,1) 51%, rgba(179,179,179,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3b3b3', endColorstr='#b3b3b3', GradientType=0 );
+}
+.img-muda {
+    width: 100%;
+    height: 250px;
+    display: table;
+    overflow: hidden;
+    background-position: center !important;
+}
+.muda-det a,
+.muda-det a:hover{
+    text-decoration: none;
+}
+.muda-det .titulo{
+    width: 100%;
+    display: table;
+    position: relative;
+}
+.muda-det .titulo h1{
+    text-decoration: none;
+    background-color: #222;
+    margin: 0;
+    text-align: center;
+    text-transform: none;
+    padding: 10px;
+    font-family: 'quicksandregular';
+    color: #FFF;
+    font-size: 16px;
+    width: 100%;
+    height: 42px;
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 1.2;
+    position: relative;
+}
+.muda-det .desc{
+    width: 100%;
+    display: table;
+    background-color: #555555;
+    height: 100px;
+}
+.muda-det .desc ul{
+    padding: 10px;
+    margin: 0;    
+}
+.muda-det .desc ul li{
+    color: #FFF;
+    font-size: 14px;
+    font-family: 'Droid Sans, sans-serif';
+    padding-left: 15px;
+    background: url(../../../images/mark.png) no-repeat left center;
+}
+.muda-det .detalhe{
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Droid Sans, sans-serif';
+    padding: 5px 15px;
+    margin: 0 10px 10px 0;
+    float: right;
+    line-height: 1;
+    background: rgba(179,179,179,1);
+    background: -moz-linear-gradient( rgba(179,179,179,1) 0%, rgba(255,255,255,1) 51%, rgba(179,179,179,1) 100%);
+    background: -webkit-gradient(left  left bottom, color-stop(0%, rgba(179,179,179,1)), color-stop(51%, rgba(255,255,255,1)), color-stop(100%, rgba(179,179,179,1)));
+    background: -webkit-linear-gradient( rgba(179,179,179,1) 0%, rgba(255,255,255,1) 51%, rgba(179,179,179,1) 100%);
+    background: -o-linear-gradient( rgba(179,179,179,1) 0%, rgba(255,255,255,1) 51%, rgba(179,179,179,1) 100%);
+    background: -ms-linear-gradient( rgba(179,179,179,1) 0%, rgba(255,255,255,1) 51%, rgba(179,179,179,1) 100%);
+    background: linear-gradient(to bottom, rgba(179,179,179,1) 0%, rgba(255,255,255,1) 51%, rgba(179,179,179,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3b3b3', endColorstr='#b3b3b3', GradientType=0 );
+}
+.muda-det .desc li{
+    display: none;
+}
+.muda-det .desc li:nth-child(1),
+.muda-det .desc li:nth-child(2),
+.muda-det .desc li:nth-child(3){
+    display: block !important;
+}
+.muda-det .imgwidth{
+    background-size: 100% auto !important;
+}
+.muda-det .imgheight{
+    background-size: auto 100% !important;
+}
+.muda-det .detalhes{
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Droid Sans, sans-serif';
+    padding: 5px 15px;
+    margin: 0 10px 10px 0;
+    float: right;
+    line-height: 1;
+    background: rgba(179,179,179,1);
+    background: -moz-linear-gradient( rgba(179,179,179,1) 0%, rgba(255,255,255,1) 51%, rgba(179,179,179,1) 100%);
+    background: -webkit-gradient(left  left bottom, color-stop(0%, rgba(179,179,179,1)), color-stop(51%, rgba(255,255,255,1)), color-stop(100%, rgba(179,179,179,1)));
+    background: -webkit-linear-gradient( rgba(179,179,179,1) 0%, rgba(255,255,255,1) 51%, rgba(179,179,179,1) 100%);
+    background: -o-linear-gradient( rgba(179,179,179,1) 0%, rgba(255,255,255,1) 51%, rgba(179,179,179,1) 100%);
+    background: -ms-linear-gradient( rgba(179,179,179,1) 0%, rgba(255,255,255,1) 51%, rgba(179,179,179,1) 100%);
+    background: linear-gradient(to bottom, rgba(179,179,179,1) 0%, rgba(255,255,255,1) 51%, rgba(179,179,179,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3b3b3', endColorstr='#b3b3b3', GradientType=0 );
+}
+
+
+
+.detalhamento-muda{
+    display: table;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.titulomuda{
+    width: 100%;
+    display: table;
+}
+.titulomuda h2{
+    float: left;
+    display: table;
+    margin-right: 10px;
+}
+.titulomuda .vendido{
+    display: table;
+    width: auto;
+    margin: -30px 0;
+}
+.titulomuda.vendido .selo{
+    width: 100px;
+    background: url(../../../images/mudapravida.png) no-repeat center;
+    text-align: center;
+    padding: 35px 0 40px 0;
+    font-family: 'Droid Sans, sans-serif';
+    font-size: 16px;
+    display: table;
+    float: left;
+    margin-right: -20px;
+}
+.valor-muda{
+    font-family: 'Droid Sans, sans-serif';
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.o-muda{
+    width: 50%;
+    display: table;
+    float: left;
+}
+.o-muda > div{
+    width: 96%;
+    padding: 0 2%;
+    display: table;
+}
+
+.desc-muda ul li{
+    font-family: 'Droid Sans, sans-serif';
+    color: #000;
+    font-size: 14px;
+}
+.end-muda h4{
+    font-family: 'Droid Sans, sans-serif';
+    font-size: 16px;
+}
+.end-muda p{
+    font-size: 16px;
+}
+.desc-muda p {
+    color: #444;
+    font-size: 16px;
+}
+.form-muda {
+    width: 50%;
+    display: table;
+    float: left;
+}
+.fases{
+    margin: 0 0 40px 0;
+}
+#quadro{
+    width: 96%;
+    padding: 0 2%;
+    display: table;
+}
+
+#quadro div.fase{
+    background: rgba(179,179,179,1);
+    background: -moz-linear-gradient( rgba(179,179,179,1) 0%, rgba(255,255,255,1) 51%, rgba(179,179,179,1) 100%);
+    background: -webkit-gradient(left left bottom, color-stop(0%, rgba(179,179,179,1)), color-stop(51%, rgba(255,255,255,1)), color-stop(100%, rgba(179,179,179,1)));
+    background: -webkit-linear-gradient( rgba(179,179,179,1) 0%, rgba(255,255,255,1) 51%, rgba(179,179,179,1) 100%);
+    background: -o-linear-gradient( rgba(179,179,179,1) 0%, rgba(255,255,255,1) 51%, rgba(179,179,179,1) 100%);
+    background: -ms-linear-gradient( rgba(179,179,179,1) 0%, rgba(255,255,255,1) 51%, rgba(179,179,179,1) 100%);
+    background: linear-gradient(to bottom, rgba(179,179,179,1) 0%, rgba(255,255,255,1) 51%, rgba(179,179,179,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3b3b3', endColorstr='#b3b3b3', GradientType=0 );
+    margin-bottom: 20px;
+}
+#quadro div.fase h3{
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'open_sanssemibold';
+    color: #000;
+    font-size: 18px;
+    margin: 0;
+}
+#quadro h4{
+    font-family: 'open_sanssemibold';
+    font-size: 16px;
+}
+#grafico table{
+    width: 100%;
+    display: table;
+    border: 0;
+}z
+#grafico table tr{
+    border: 0;
+}
+#grafico table tr td{
+    border: 0;
+    padding: 3px 5px;
+    font-size: 14px;
+    font-family: 'open_sansregular';
+    width: 70%;
+}
+#grafico table tr td:first-child{
+    width: 30%;
+}
+#grafico table tr td.total{
+    font-family: 'open_sanssemibold'; 
+}
+.barra{
+    background: #c48d30;
+    background: -moz-linear-gradient( #c48d30 , #fbe632, #c48d30);
+    background: -webkit-gradient( #c48d30, #fbe632, #c48d30);
+    background: -webkit-linear-gradient( #c48d30, #fbe632, #c48d30);
+    background: -o-linear-gradient( #c48d30, #fbe632, #c48d30);
+    background: -ms-linear-gradient( #c48d30, #fbe632, #c48d30);
+    background: linear-gradient(#c48d30, #fbe632, #c48d30);
+    color: #000;
+    font-size: 14px;
+    font-family: 'open_sanssemibold'; 
+}
+.barra span{
+    padding: 3px 10px;
+}
+.detalhamento-muda form {
+    width: 90%;
+    padding: 20px 5%;
+    display: table;
+    background-color: #444;
+}
+.detalhamento-muda form legend {
+    color: #FFF;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.detalhamento-muda form input[type=text] {
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 3px 3%;
+    width: 93%;
+    margin-bottom: 5px;
+}
+.detalhamento-muda form input[type=email] {
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 3px 3%;
+    width: 93%;
+    margin-bottom: 5px;
+}
+.detalhamento-muda form textarea {
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 3px 3%;
+    width: 63%;
+    margin-right: 2%;
+    float: left;
+}
+.detalhamento-muda form input[type=submit] {
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 3px 2%;
+    width: 28%;
+    text-align: center;
+    padding: 25px 0;
+    color: #000;
+    background-color: #EEE;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.detalhamento-muda form input[type=submit]:hover{
+    background-color: #CCC;
+}
+.imagens-muda {
+    width: 100%;
+    display: table;
+}
+.image-link {
+    width: 18%;
+    overflow: hidden;
+    float: left;
+    margin: 0 1% 10px 1%;
+}
+.scrolloff {
+    pointer-events: none;
+}
+.result-mudas h2{
+    margin-bottom: 30px;
+    text-align: center;
+}

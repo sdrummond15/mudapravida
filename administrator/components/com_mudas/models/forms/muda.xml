@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <fieldset name="details" 
+              addfieldpath="/administrator/components/com_mudas/models/fields">
+        
+        <field name="id" 
+               type="text" 
+               default="0" 
+               readonly="true" 
+               class="readonly" 
+               label="JGLOBAL_FIELD_ID_LABEL" 
+               description="JGLOBAL_FIELD_ID_DESC" 
+        />
+        
+        <field name="name" 
+               type="text" 
+               class="inputbox" 
+               size="40" 
+               label="JGLOBAL_NAME" 
+               description="JFIELD_NAME_DESC" 
+               required="true" 
+        />
+        
+        <field name="alias" 
+               type="text" 
+               class="inputbox" 
+               size="40" 
+               label="JFIELD_ALIAS_LABEL" 
+               description="JFIELD_ALIAS_DESC" 
+        />
+        
+        <field name="destaque"
+               type="radio"
+               default="1"
+               class="btn-group btn-group-yesno"
+               label="COM_mudaS_FIELD_DESTAQUE_LABEL"
+               description="COM_MUDAS_FIELD_DESTAQUE_DESC"
+        >
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+        
+        <field name="tipo"
+               type="radio"
+               default="0"
+               class="radio btn-group btn-muda"
+               label="COM_mudaS_FIELD_TIPO_LABEL"
+               description="COM_mudaS_FIELD_TIPO_DESC"
+        >
+            <option value="0">EMP</option>
+            <option value="1">AV</option>
+        </field>
+        
+        <field name="idalbum" 
+               type="album"
+               label="JFIELD_ALBUM_LABEL"
+        />
+        
+        <field name="endereco" 
+               type="text" 
+               class="inputbox" 
+               size="40" 
+               label="JFIELD_ENDERECO_LABEL" 
+        />
+        
+        <field name="complemento" 
+               type="text" 
+               class="inputbox" 
+               size="40" 
+               label="JFIELD_COMPLEMENTO_LABEL" 
+        />
+        
+        <field name="idbairro" 
+               type="bairro"
+               label="JFIELD_BAIRROS_LABEL"
+        />
+        
+        <field name="idcidade" 
+               type="cidade"
+               label="JFIELD_CIDADES_LABEL"
+        />
+        
+        <field name="cep" 
+               type="text" 
+               class="inputbox" 
+               size="40" 
+               label="JFIELD_CEP_LABEL"
+               maxlenght="10"
+        />
+        
+        <field name="latitude" 
+               type="text" 
+               class="inputbox" 
+               size="40" 
+               label="JFIELD_LATITUDE_LABEL" 
+               maxlenght="10"
+        />
+        
+        <field name="longitude" 
+               type="text" 
+               class="inputbox" 
+               size="40" 
+               label="JFIELD_LONGITUDE_LABEL" 
+        />
+        
+        <field name="valor" 
+               type="text" 
+               class="inputbox" 
+               size="40" 
+               label="JFIELD_VALOR_LABEL" 
+        />
+        
+        <field name="fase" 
+               type="list" 
+               label="JFIELD_FASE_LABEL" 
+               class="inputbox" 
+               size="1"
+        >           
+            <option value="Nenhum">Nenhum</option>
+            <option value="Breve Lançamento">Breve Lançamento</option>
+            <option value="Lançamento">Lançamento</option>
+            <option value="Habite-se / CND">Habite-se / CND (Certidão Negatida de Débitos)</option>
+            <option value="Entregue">Entregue</option>
+            <option value="Aguardando Licenças">Aguardando Licenças</option>
+            <option value="Em Construção">Em Construção</option>
+            <option value="Projeto">Projeto</option>     
+        </field>        
+           
+        <field name="percent_vendido" 
+               type="number" 
+               class="inputbox" 
+               size="40" 
+               label="JFIELD_PERC_VEND_LABEL"
+               min="0"
+               max="100"
+        />
+        
+        <field name="projeto" 
+               type="number" 
+               class="inputbox" 
+               size="40" 
+               label="JFIELD_PROJETO_LABEL"
+               min="0"
+               max="100"
+        />       
+           
+        <field name="alvenaria" 
+               type="number" 
+               class="inputbox" 
+               size="40" 
+               label="JFIELD_ALVENARIA_LABEL"
+               min="0"
+               max="100"
+        />        
+           
+        <field name="acabamento" 
+               type="number" 
+               class="inputbox" 
+               size="40" 
+               label="JFIELD_ACABAMENTO_LABEL"
+               min="0"
+               max="100" 
+        />        
+           
+        <field name="estrutura" 
+               type="number" 
+               class="inputbox" 
+               size="40" 
+               label="JFIELD_ESTRUTURA_LABEL"
+               min="0"
+               max="100" 
+        />        
+           
+        <field name="fundacao" 
+               type="number" 
+               class="inputbox" 
+               size="40" 
+               label="JFIELD_FUNDACAO_LABEL"
+               min="0"
+               max="100"
+        />
+        
+        <field name="instalacoes" 
+               type="number" 
+               class="inputbox" 
+               size="40" 
+               label="JFIELD_INSTALACOES_LABEL"
+               min="0"
+               max="100" 
+        />
+        
+        <field name="documentacao" 
+               type="number" 
+               class="inputbox" 
+               size="40" 
+               label="JFIELD_DOCUMENTACAO_LABEL"
+               min="0"
+               max="100" 
+        /> 
+        
+        <field name="habitese" 
+               type="number" 
+               class="inputbox" 
+               size="40" 
+               label="JFIELD_HABITESE_LABEL"
+               min="0"
+               max="100" 
+        />        
+              
+        <field name="published" 
+               type="list" 
+               label="JSTATUS" 
+               class="inputbox" 
+               size="1" 
+               default="1"
+        >
+            <option value="1">JPUBLISHED</option>
+            
+            <option value="0">JUNPUBLISHED</option>
+            
+            <option value="2">JARCHIVED</option>
+            
+            <option value="-2">JTRASHED</option>
+            
+        </field>
+        
+        <field name="descricao" 
+              type="editor"
+              rows="8"
+              cols="60"
+              label="JGLOBAL_DESCRIPTION" 
+              filter="JComponentHelper::filterText" 
+              buttons="true"
+              description="COM_mudaS_FIELD_DESCRIPTION_DESC" 
+              class="inputbox"
+        />
+    </fieldset>
+    
+    <fieldset name="publish">
+        
+        <field name="created" 
+               type="calendar" 
+               label="JGLOBAL_FIELD_CREATED_LABEL" 
+               description="JGLOBAL_FIELD_CREATED_DESC" 
+               class="inputbox" 
+               size="22" 
+               format="%Y-%m-%d %H:%M:%S" 
+               filter="user_utc" 
+        />
+        
+        <field name="created_by" 
+               type="user" 
+               label="JGLOBAL_FIELD_CREATED_BY_LABEL" 
+               description="JGLOBAL_FIELD_CREATED_BY_Desc" 
+        />
+        
+        <field name="modified" 
+               type="calendar" 
+               class="readonly" 
+               label="JGLOBAL_FIELD_MODIFIED_LABEL" 
+               description="COM_WEBLINKS_FIELD_MODIFIED_DESC" 
+               size="22" 
+               readonly="true" 
+               format="%Y-%m-%d %H:%M:%S" 
+               filter="user_utc" 
+        />
+        
+        <field name="modified_by" 
+               type="user" 
+               label="JGLOBAL_FIELD_MODIFIED_BY_LABEL" 
+               class="readonly" 
+               readonly="true" 
+               filter="unset" 
+        />
+        
+        <field name="checked_out" 
+               type="hidden" 
+               filter="unset" 
+        />
+        
+        <field name="checked_out_time" 
+               type="hidden" 
+               filter="unset" 
+        />
+        
+        <field name="publish_up" 
+               type="calendar" 
+               label="JGLOBAL_FIELD_PUBLISH_UP_LABEL" 
+               description="JGLOBAL_FIELD_PUBLISH_UP_DESC" 
+               class="inputbox" 
+               format="%Y-%m-%d %H:%M:%S" 
+               size="22" 
+               filter="user_utc" 
+        />
+        
+        <field name="publish_down" 
+               type="calendar" 
+               label="JGLOBAL_FIELD_PUBLISH_DOWN_LABEL" 
+               description="JGLOBAL_FIELD_PUBLISH_DOWN_DESC" 
+               class="inputbox" 
+               format="%Y-%m-%d %H:%M:%S" 
+               size="22" 
+               filter="user_utc" 
+        />
+        
+    </fieldset>
+</form>

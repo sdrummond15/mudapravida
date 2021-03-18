@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+    type="module"
+    version="2.5"
+    client="site"
+    method="upgrade">
+    <name>mod_mapa_mudas</name>
+    <author>Wanderson Alves</author>
+    <creationDate>June 2016</creationDate>
+    <copyright>Copyright (C) - 2016 - Sdrummond Soluções em Tecnologia. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <authorEmail>wandersonmg18@gmail.com</authorEmail>
+    <authorUrl>www.sdrummond.com.br</authorUrl>
+    <version>1.0.1</version>
+    <description>MOD_MAPA_MUDAS_XML_DESCRIPTION</description>
+    <files>
+        <filename module="mod_mapa_mudas">mod_mapa_mudas.php</filename>
+        <folder>tmpl</folder>
+        <filename>helper.php</filename>
+        <filename>index.html</filename>		
+        <filename>mod_mapa_mudas.xml</filename>
+    </files>
+</extension>
