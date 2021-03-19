@@ -38,7 +38,7 @@
 ul.contact-social-footer {
     list-style: none;
     display: table;
-    margin: 25px auto 20px auto;
+    margin: 20px auto;
     padding: 0;
 }
 
@@ -114,8 +114,10 @@ ul.contact-social-footer li a.instagram i{
 .phone,
 .email {
     display: table;
-    margin: auto;
-    font-weight: 700;
+    margin: 0 auto 5px auto;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
 }
 
 .phone a:hover,

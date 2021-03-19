@@ -45,7 +45,7 @@
     text-align: center;
     text-decoration: none;
     color: #FFF;
-    font-family: 'quicksandregular';
+    font-family: 'Montserrat';
     font-size: 30px;
     padding: 10px 2%;
     position: absolute;
@@ -70,14 +70,14 @@
 .descprod p{
     line-height: 1.2;
     color: #333;
-    font-family: 'quicksandregular';
+    font-family: 'Montserrat';
     font-size: 18px;
     margin: 0 0 10px 0;
 }
 .product-form h2{
     text-decoration: none;
     color: #003c21;
-    font-family: 'quicksandbold';
+    font-family: 'Montserrat';
     font-size: 20px;
     padding: 20px 0;
 }
@@ -86,7 +86,7 @@
 }
 .product-form h1{
     color: #003c21;
-    font-family: 'quicksandregular';
+    font-family: 'Montserrat';
     font-size: 30px;
     text-align: center;
     margin-bottom: 30px;
@@ -108,7 +108,7 @@
     border: 0;
     background-color: #ecf9ec;
     color: #003c21;
-    font-family: 'quicksandbold';
+    font-family: 'Montserrat';
     font-size: 20px;
 }
 #orcamento-form fieldset .submitform{

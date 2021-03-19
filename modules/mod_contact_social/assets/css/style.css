@@ -1,15 +1,9 @@
-#contact-social {
-    margin-top: 5px;
-}
-
 ul.contact-social {
     list-style: none;
     display: table;
-    margin: 0;
+    margin: 5px 0;
     padding: 0;
 }
-
-
 
 ul.contact-social.social-right {
     display: inline-flex;
@@ -39,7 +33,7 @@ ul.contact-social li a {
 }
 
 ul.contact-social li a:hover {
-    color: #8f0141;
+    color: #ccc;
 }
 
 ul.contact-social li a.instagram {
@@ -52,7 +46,7 @@ ul.contact-social li a.instagram {
 }
 
 ul.contact-social li a.instagram:hover {
-    background-color: #8f0141;
+    background-color: #ccc;
 }
 
 ul.contact-social li a.instagram span{
@@ -62,7 +56,7 @@ ul.contact-social li a.instagram span{
 }
 
 ul.contact-social li a.instagram i{
-    color: #d4005f;
+    color: #FFF;
     font-size: 22px;
     line-height: 0.8;
     display: block;
@@ -96,11 +90,11 @@ ul.contact-social li a span {
 }
 
 .moduletable-sociais ul.contact-social li a {
-    color: #000;
+    color: #FFF;
 }
 
 .moduletable-sociais ul.contact-social li a:hover {
-    color: #016fa4;
+    color: #ccc;
 }
 
 #contact-social .certificado {
